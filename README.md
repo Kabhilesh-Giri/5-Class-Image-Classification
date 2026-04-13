@@ -1,9 +1,5 @@
 # Neural Network Image Classification – Project
 
-## Group Members
-- Aidan Syrgak Uulu
-- Kabhilesh Giri
-
 ## Overview
 This project explores neural network architectures for image classification on a 5-class flower dataset.
 
