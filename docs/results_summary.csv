@@ -1,0 +1,6 @@
+stage,notebook,model,validation_accuracy,validation_correct,validation_total,notes
+EXP1,EXP1_SimpleLinearNN.ipynb,Simple flatten linear network,0.4321,334,773,Scratch baseline with flatten and softmax
+EXP2,EXP2_SimpleNonLinearNN.ipynb,Simple dense nonlinear network,0.4230,327,773,Scratch dense model with ReLU hidden layer
+EXP3,EXP3_SimpleNonLinearWithHPT_BatchNormalization_EarlyStopping_Regularization_Dropout.ipynb,Tuned dense network,0.4929,381,773,Manual grid search with batch norm dropout L2 and early stopping
+Level2,Level2_TransferLearning.ipynb,Fine-tuned MobileNetV2,0.8978,694,773,Transfer learning with ImageNet MobileNetV2
+Level3,Level3_TransformerBasedImageClassification.ipynb,Fine-tuned ViT,0.9715,751,773,Pretrained Vision Transformer with last transformer blocks fine-tuned

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+env*/
+
+# Local training artifacts
+*.keras
+*.h5
+*.ckpt
+*.weights.h5
+vit_*_best/
+vit_final_flower_classifier/
+mobilenetv2_*_flower_classifier/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
